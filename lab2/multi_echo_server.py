@@ -28,6 +28,8 @@ def main():
             p.start()
             print("Started process ", p)
 
+            # p.join()
+
 def handle_echo(addr, conn):
     print("Connected by ", addr)
 
